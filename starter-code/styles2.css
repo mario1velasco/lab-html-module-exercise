@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: "Open Sans";
+}
+h1 {
+	font-family: "Open Sans";
+	font-size: 48px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 24px;
+  margin: 20px 0 10px 0;
+  padding: .107em 0;
+}
+.container{
+  width:1160px;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar{
+  color:rgba(255,255,255,0.8);
+  background-color:#C12127;
+  padding:11px 20px;
+}
+.nav-div{
+  float:left;
+}
+.nav-div a{
+  padding-right: 20px;
+}
+.nav-ul{
+  float:right;
+  margin:0 auto;
+}
+.nav-ul li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+  padding-left: 15px;
+}
+.navbar a{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 0.9em;
+}
+
+.header-npm{
+  color:white;
+  background-color: #1D4E69;
+  background-image: url(images/fondo-header2.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 445px;
+}
+.header-bar{
+  padding: 20px;
+}
+.npm-logo{
+  height: 49px;
+
+}
+.hbar1{
+  float: left;
+  width:10%;
+}
+.hbar2{
+  float: left;
+  width: 70%;
+  margin:0 1% 0 1%;
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 5px 5px 5px 15px;
+  height: 38px;
+  font-size:1em;
+  background-color: rgb(31, 82, 111);
+  letter-spacing: 0.5px;
+}
+.bear-logo{
+  float: left;
+  height: 40px;
+  padding: 2px 0;
+  width: 3%;
+}
+.hbar3{
+  float:left;
+  margin:0 auto;
+  width:13%;
+  padding: 10px 0;
+  text-align: right;
+}
+.hbar3 li{
+  list-style-type:none;
+  text-align:center;
+  display: inline;
+}
+.hbar3 a, span{
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 1em;
+}
+
+
+.header-sign{
+  text-align: left;
+  margin: 40px 150px;
+}
+.h-sign-div{
+  width: 550px;
+}
+
+.h-sign-div p{
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+  margin: 10px 0;
+}
+.h-sign-div a{
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  color: white;
+}
+.section-sign{
+  background-color:#273547;
+  font:white;
+  padding: 120px 10px;
+  color:white;
+}
+.sign-up-img{
+  width: 50%;
+  margin-left: 4%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+  box-sizing: border-box;
+}
+.collabo-logo{
+  height: 333px;
+  text-align: right;
+}
+.sign-up-text{
+  width: 40%;
+  margin-left: 4%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: block;
+}
+.sign-up-text h1{
+  font-weight: 300;
+  padding: .107em 0;
+  margin-bottom: 10px;
+  font-size: 34px;
+  text-align: left;
+  line-height: normal;
+}
+.sign-up-text ul{
+  padding-left: 23px;
+  padding-bottom: 20px;
+  text-align: left;
+  line-height: 40px;
+}
+.btn-sign{
+  background-color: #cb3837;
+  text-decoration: none;
+  color: white;
+  padding: 7px 26px;
+  border: 1px;
+  border-radius: 20px;
+  font-size: 18px;
+  display: block;
+  width: 136px;
+  text-align: left;
+}
+.p-sign{
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+}
+.p-sign a{
+  text-decoration: none;
+  color: white;
+}
+.section-install{
+  background-color: #206F9C;
+  background-image: url(images/fondo.png);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 380px;
+  color:white;
+  padding: 60px 6%;
+}
+.install-div{
+  text-align: left;
+  margin: 60px 0 20px 5%;
+  width: 345px;
+}
+.install-div h1{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 20px 0 10px 0;
+  padding: 5px 0;
+}
+.install-div p{
+  margin-bottom: 10px;
+  padding: 10px 0;
+
+}
+.install-div a{
+  text-decoration: none;
+  background-color: #34495e;
+  border-radius: 20px;
+  padding: 7px 26px 8px 26px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px;
+  color: white;
+}
+.section-options{
+  height: 510px;
+  color:#6d7986;
+  text-align: center;
+}
+.options-div{
+  padding: 40px 10px;
+  margin:0 5%;
+}
+.options-div h2{
+  color: #373d48;
+  margin: 20px 0;
+  padding: 3px 0;
+  font-weight: 300;
+  font-size: 36px;
+}
+.options-div-3divs{
+  height: 306px;
+  margin: 25px 5%;
+}
+.options-div-3divs div{
+  width: 250px;
+  padding: 20px;
+}
+.options-div-3divs h3{
+  color:#373d48;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.options-div-3divs a{
+  text-decoration: none;
+  color: #cb3837;
+}
+.col{
+  float: left;
+}
+.col-3{
+  width: 30%;
+}
+.col-middle{
+  margin: 0 8%;
+}
+
+
+
+
+
+.clearfix{
+  clear: both;
+}
